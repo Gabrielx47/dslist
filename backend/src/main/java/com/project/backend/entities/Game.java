@@ -25,23 +25,23 @@ public class Game {
     private String platforms;
     private Double score;
     @Column(length = 255)
-    private String imgUri;
+    private String imgUrl;
     @Column(length = 255)
     private String shortDescription;
-    @Column(length = 255)
+    @Column(columnDefinition = "TEXT")
     private String longDescription;
 
     public Game() {
     }
 
-    public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUri, String shortDescription, String longDescription) {
+    public Game(Long id, String title, Integer year, String genre, String platforms, Double score, String imgUrl, String shortDescription, String longDescription) {
         this.id = id;
         this.title = title;
         this.year = year;
         this.genre = genre;
         this.platforms = platforms;
         this.score = score;
-        this.imgUri = imgUri;
+        this.imgUrl = imgUrl;
         this.shortDescription = shortDescription;
         this.longDescription = longDescription;
     }
@@ -94,12 +94,12 @@ public class Game {
         this.score = score;
     }
 
-    public String getImgUri() {
-        return imgUri;
+    public String getImgUrl() {
+        return imgUrl;
     }
 
-    public void setImgUri(String imgUri) {
-        this.imgUri = imgUri;
+    public void setImgUrl(String imgUrl) {
+        this.imgUrl = imgUrl;
     }
 
     public String getShortDescription() {
