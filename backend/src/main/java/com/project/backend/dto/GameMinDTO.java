@@ -1,6 +1,7 @@
 package com.project.backend.dto;
 
 import com.project.backend.entities.Game;
+import com.project.backend.projections.GameMinProjection;
 
 public class GameMinDTO {
     private Long id;
@@ -10,6 +11,14 @@ public class GameMinDTO {
     private String shortDescription;
     
     public GameMinDTO(Game entity) {
+        this.id = entity.getId();
+        this.title = entity.getTitle();
+        this.year = entity.getYear();
+        this.imgUrl = entity.getImgUrl();
+        this.shortDescription = entity.getShortDescription();
+    }
+    
+    public GameMinDTO(GameMinProjection entity) {
         this.id = entity.getId();
         this.title = entity.getTitle();
         this.year = entity.getYear();
