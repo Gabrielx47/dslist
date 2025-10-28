@@ -125,7 +125,7 @@ Ajuste a estrutura acima caso suas pastas tenham outros nomes.
 ---
 
 ## Testes
-- Backend: rodar testes unitários/integrados via `mvn test` ou `./gradlew test`
+- Backend: rodar testes unitários/integrados via `mvn test`.
 - Frontend: use ferramentas de testes de sua escolha (Jest, Detox etc.)
 
 ---
@@ -149,10 +149,6 @@ Coloque aqui a licença do projeto (ex.: MIT). Se ainda não houver, escolha uma
 ---
 
 ## Contato
-Gabrielx47 — (adicione seu e-mail ou link para perfil)
+Gabrielx47 — gabrieldossantosmendonca0@gmail.com
 
 ---
-
-Se quiser, eu posso:
-- adaptar esse README para refletir comandos/tecnologias exatos do seu repositório (por exemplo, confirmar se o backend é Spring Boot e quais endpoints existem), e
-- abrir um PR com o README atualizado usando o arquivo acima pronto para ser commitado.
