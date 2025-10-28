@@ -40,7 +40,7 @@ O projeto segue uma arquitetura em camadas (ex.: controller → service → repo
 
 
 - Frontend mobile: ![Static Badge](https://img.shields.io/badge/v54---?logo=expo&logoSize=auto&label=Expo&labelColor=black&color=gray) / ![Static Badge](https://img.shields.io/badge/v0.81.4---?logo=react&logoSize=auto&label=React%20Native&labelColor=black&color=gray)
-- Banco de dados: ![Static Badge](https://img.shields.io/badge/---?logo=h2database&logoColor=auto&logoSize=auto&label=H2%20Database&labelColor=blue&color=lightblue) / ![Static Badge](https://img.shields.io/badge/---?logo=postgresql&logoColor=auto&logoSize=auto&label=PostgreSQL&labelColor=gray&color=lightblue) 
+- Banco de dados: ![Static Badge](https://img.shields.io/badge/---?logo=h2database&logoColor=auto&logoSize=auto&label=H2%20Database&labelColor=blue&color=lightblue) / ![Static Badge](https://img.shields.io/badge/---?logo=postgresql&logoColor=auto&logoSize=auto&label=PostgreSQL&labelColor=darkgray&color=lightblue) 
 - Build: ![Static Badge](https://img.shields.io/badge/---?logo=apachemaven&logoColor=red&logoSize=auto&label=Maven&labelColor=purple&color=orange) 
 
 ---
