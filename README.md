@@ -36,8 +36,7 @@ O projeto segue uma arquitetura em camadas (ex.: controller → service → repo
 ---
 
 ## Tecnologias
-- Backend: ![Static Badge](https://img.shields.io/badge/v21---?logoSize=auto&label=Java&labelColor=blue&color=orange)
- + ![Static Badge](https://img.shields.io/badge/v3.5.4---?logo=springboot&logoSize=auto&label=Spring%20Boot&labelColor=black&color=gray)
+- Backend: ![Static Badge](https://img.shields.io/badge/v21---?logoSize=auto&label=Java&labelColor=blue&color=orange) + ![Static Badge](https://img.shields.io/badge/v3.5.4---?logo=springboot&logoSize=auto&label=Spring%20Boot&labelColor=black&color=gray)
 
 
 - Frontend mobile: Expo / React Native
