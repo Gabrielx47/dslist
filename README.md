@@ -39,11 +39,9 @@ O projeto segue uma arquitetura em camadas (ex.: controller → service → repo
 - Backend: ![Static Badge](https://img.shields.io/badge/v21---?logoSize=auto&label=Java&labelColor=blue&color=orange) + ![Static Badge](https://img.shields.io/badge/v3.5.4---?logo=springboot&logoSize=auto&label=Spring%20Boot&labelColor=black&color=gray)
 
 
-- Frontend mobile: Expo / React Native
-- Banco de dados: (configurável — H2 / PostgreSQL / MySQL)
-- Build: Maven ou Gradle (dependendo do projeto backend)
-
-> Observação: substitua as tecnologias acima pela stack exata do seu projeto, se diferente.
+- Frontend mobile: ![Static Badge](https://img.shields.io/badge/v54---?logo=expo&logoSize=auto&label=Expo&labelColor=black&color=gray) / ![Static Badge](https://img.shields.io/badge/v0.81.4---?logo=react&logoSize=auto&label=React%20Native&labelColor=black&color=gray)
+- Banco de dados: ![Static Badge](https://img.shields.io/badge/---?logo=h2database&logoColor=auto&logoSize=auto&label=H2%20Database&labelColor=blue&color=lightblue) / ![Static Badge](https://img.shields.io/badge/---?logo=postgresql&logoColor=auto&logoSize=auto&label=PostgreSQL&labelColor=gray&color=lightblue) 
+- Build: ![Static Badge](https://img.shields.io/badge/---?logo=apachemaven&logoColor=red&logoSize=auto&label=Maven&labelColor=purple&color=orange) 
 
 ---
 
