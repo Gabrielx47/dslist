@@ -36,7 +36,10 @@ O projeto segue uma arquitetura em camadas (ex.: controller → service → repo
 ---
 
 ## Tecnologias
-- Backend: (tipicamente) Java + Spring Boot (ajuste conforme seu stack)
+- Backend: ![Static Badge](https://img.shields.io/badge/v21---?logoSize=auto&label=Java&labelColor=blue&color=orange)
+ + ![Static Badge](https://img.shields.io/badge/v3.5.4---?logo=springboot&logoSize=auto&label=Spring%20Boot&labelColor=black&color=gray)
+
+
 - Frontend mobile: Expo / React Native
 - Banco de dados: (configurável — H2 / PostgreSQL / MySQL)
 - Build: Maven ou Gradle (dependendo do projeto backend)
