@@ -2,7 +2,7 @@
 
 ![Arquitetura do projeto](https://github.com/user-attachments/assets/af42a17d-32f4-4b02-a95c-7cb9d2a68a1c)
 
-dslist é um projeto que implementa um catálogo/listas de jogos (DSList). O repositório contém backend e frontend (mobile/expo).
+dslist é um projeto que implementa um catálogo/listas de jogos (DSList). O repositório contém backend e frontend (mobile/expo). Além disso, como ilustra a imagem acima, é um projeto estruturdo em camadas.
 
 ---
 
@@ -27,11 +27,11 @@ Projeto de demonstração para gerenciar jogos e listas (ex.: ranking pessoal, c
 
 ---
 
-## Arquitetura / Modelo de domínio
+## Modelo de domínio
 
 ![Modelo de domínio](https://github.com/user-attachments/assets/75859ae3-bcbd-4f52-a299-abfbc2120353)
 
-O projeto segue uma arquitetura em camadas (ex.: controller → service → repository). As imagens acima ilustram a arquitetura e o modelo de domínio.
+A imagem acima ilustra o modelo de domínio, expondo os detelhas das entidades e seus relacionamentos.
 
 ---
 
@@ -47,7 +47,7 @@ O projeto segue uma arquitetura em camadas (ex.: controller → service → repo
 
 ## Pré-requisitos
 - Git
-- Java 11+ (se o backend for Java/Spring Boot)
+- Java 21
 - Maven
 - Node.js (16+) e npm/yarn
 - Expo CLI (opcional global): `npm install -g expo-cli` ou use `npx expo`
@@ -56,7 +56,7 @@ O projeto segue uma arquitetura em camadas (ex.: controller → service → repo
 
 ## Como executar
 
-As instruções abaixo cobrem os passos gerais para rodar localmente. Adapte conforme a configuração real do seu repositório.
+As instruções abaixo cobrem os passos gerais para rodar localmente.
 
 ### Backend
 1. Entre no diretório do backend (ex.: `cd backend` se houver pasta):
@@ -103,13 +103,12 @@ Observação: ajuste a URL/base da API no cliente mobile para apontar para o bac
 ---
 
 ## Endpoints principais (exemplo)
-Abaixo seguem exemplos genéricos — atualize conforme a implementação real:
+Abaixo seguem exemplos genéricos:
 
 - GET /games — lista todos os jogos
 - GET /games/{id} — detalhes de um jogo
-- GET /lists — lista de listas/rankings
-- POST /lists/{listId}/items — adiciona jogo a uma lista
-- PUT /lists/{listId}/items/{itemId}/position — altera posição em uma lista
+- GET /lists — lista as categorais de jogos
+- POST /lists/{listId}/games — lista os jogos de uma categoria
 
 Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando OpenAPI/Swagger).
 
@@ -119,8 +118,6 @@ Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando Ope
 - /backend — código do servidor (controllers, services, repositories, model)
 - /frontend — app Expo / React Native
 - README.md — documentação principal
-
-Ajuste a estrutura acima caso suas pastas tenham outros nomes.
 
 ---
 
