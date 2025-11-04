@@ -2,7 +2,7 @@
 
 ![Arquitetura do projeto](https://github.com/user-attachments/assets/af42a17d-32f4-4b02-a95c-7cb9d2a68a1c)
 
-dslist é um projeto que implementa um catálogo/listas de jogos (DSList). O repositório contém backend e frontend (mobile/expo). Além disso, como ilustra a imagem acima, é um projeto estruturdo em camadas.
+dslist é um projeto que implementa um catálogo/listas de jogos (DSList). O repositório contém backend e frontend (mobile/expo). Além disso, como ilustra a imagem acima, é um projeto estruturado em camadas.
 
 ---
 
@@ -14,7 +14,7 @@ dslist é um projeto que implementa um catálogo/listas de jogos (DSList). O rep
 - [Como executar](#como-executar)
   - [Backend](#backend)
   - [Frontend (Expo)](#frontend-expo)
-- [Endpoints principais (exemplo)](#endpoints-principais-exemplo)
+- [Endpoints da API](#endpoints-principais-exemplo)
 - [Estrutura do projeto](#estrutura-do-projeto)
 - [Contribuições](#contribuições)
 - [Licença](#licença)
@@ -23,7 +23,7 @@ dslist é um projeto que implementa um catálogo/listas de jogos (DSList). O rep
 ---
 
 ## Visão geral
-Projeto de demonstração para gerenciar jogos e listas (ex.: ranking pessoal, coleções). Ideal para estudo de arquitetura em camadas (controller, service, repository), consumo via API REST e cliente mobile com Expo.
+O projeto tem como finalidade o gerenciamento de jogos e suas categorias. Além disso, foi desenvolvido comforme os vídeos da imersão criada pelo [prof. Nélio Alves](https://github.com/acenelio).
 
 ---
 
@@ -102,8 +102,8 @@ Observação: ajuste a URL/base da API no cliente mobile para apontar para o bac
 
 ---
 
-## Endpoints principais (exemplo)
-Abaixo seguem exemplos genéricos:
+## Endpoints da API  
+Abaixo seguem os endpoints disponíveis:
 
 - GET /games — lista todos os jogos
 - GET /games/{id} — detalhes de um jogo
@@ -124,19 +124,6 @@ Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando Ope
 ## Testes
 - Backend: rodar testes unitários/integrados via `mvn test`.
 - Frontend: use ferramentas de testes de sua escolha (Jest, Detox etc.)
-
----
-
-## Como contribuir
-1. Faça um fork do projeto.
-2. Crie uma branch com a feature ou correção:
-   ```bash
-   git checkout -b feature/minha-feature
-   ```
-3. Faça commits claros e atômicos.
-4. Abra um Pull Request descrevendo as mudanças.
-
-Adicione issues para bugs ou melhorias antes de trabalhar em mudanças maiores, para alinhamento.
 
 ---
 
