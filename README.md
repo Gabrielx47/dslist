@@ -115,8 +115,51 @@ Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando Ope
 ---
 
 ## Estrutura do projeto (exemplo)
-- /backend — código do servidor (controllers, services, repositories, model)
+- /backend — código do servidor 
+  📦backend
+ ┣ 📂.mvn
+ ┣ 📂src
+ ┃ ┣ 📂main
+ ┃ ┃ ┣ 📂java
+ ┃ ┃ ┃ ┗ 📂com
+ ┃ ┃ ┃ ┃ ┗ 📂project
+ ┃ ┃ ┃ ┃ ┃ ┗ 📂backend
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂controllers
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂dto
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂entities
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂projections
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂repositories
+ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂services
+ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜BackendApplication.java
+ ┃ ┃ ┗ 📂resources
+ ┃ ┃ ┃ ┣ 📜application-test.properties
+ ┃ ┃ ┃ ┣ 📜application.properties
+ ┃ ┃ ┃ ┗ 📜import.sql
+ ┃ ┗ 📂test
+ ┣ 📂target
+ ┣ 📜.gitattributes
+ ┣ 📜.gitignore
+ ┣ 📜mvnw
+ ┣ 📜mvnw.cmd
+ ┣ 📜nb-configuration.xml
+ ┣ 📜nbactions.xml
+ ┗ 📜pom.xml
+
 - /frontend — app Expo / React Native
+📦frontend
+ ┣ 📂.cursor
+ ┣ 📂.vscode
+ ┣ 📂app
+ ┣ 📂assets
+ ┃ ┗ 📂images
+ ┣ 📜.gitignore
+ ┣ 📜README.md
+ ┣ 📜app.json
+ ┣ 📜eslint.config.js
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┗ 📜tsconfig.json
+
 - README.md — documentação principal
 
 ---
