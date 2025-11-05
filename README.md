@@ -115,7 +115,7 @@ Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando Ope
 ---
 
 ## Estrutura do projeto (exemplo)
-
+```text
   📦backend
  ┣ 📂.mvn
  ┣ 📂src
@@ -144,6 +144,7 @@ Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando Ope
  ┣ 📜nb-configuration.xml
  ┣ 📜nbactions.xml
  ┗ 📜pom.xml
+``
 
 - /frontend — app Expo / React Native
   
