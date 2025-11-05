@@ -115,8 +115,7 @@ Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando Ope
 ---
 
 ## Estrutura do projeto (exemplo)
-- /backend — código do servidor
-  
+
   📦backend
  ┣ 📂.mvn
  ┣ 📂src
