@@ -115,7 +115,8 @@ Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando Ope
 ---
 
 ## Estrutura do projeto (exemplo)
-- /backend — código do servidor 
+- /backend — código do servidor
+  
   📦backend
  ┣ 📂.mvn
  ┣ 📂src
@@ -146,6 +147,7 @@ Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando Ope
  ┗ 📜pom.xml
 
 - /frontend — app Expo / React Native
+  
 📦frontend
  ┣ 📂.cursor
  ┣ 📂.vscode
