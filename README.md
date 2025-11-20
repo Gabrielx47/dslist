@@ -15,6 +15,7 @@ dslist é um projeto que implementa um catálogo/listas de jogos (DSList). O rep
   - [Backend](#backend)
   - [Frontend (Expo)](#frontend-expo)
 - [Endpoints da API](#endpoints-principais-exemplo)
+- [Endpoints da Documentação da API com OpenAPI/Swagger](#endpoints-da-documentação-da-api-com-openapiswagger)
 - [Estrutura do projeto](#estrutura-do-projeto)
 - [Contribuições](#contribuições)
 - [Licença](#licença)
@@ -110,8 +111,15 @@ Abaixo seguem os endpoints disponíveis:
 - GET /lists — lista as categorais de jogos
 - POST /lists/{listId}/games — lista os jogos de uma categoria
 
-Sugestão: crie/atualize uma seção com o contrato real da API (ex.: usando OpenAPI/Swagger).
+---
 
+## Endpoints da Documentação da API com OpenAPI/Swagger
+
+- /api-docs - para acessar a documentação escrita com OpenAPI
+- /documentation.html - para vizualizar a documentação com o Swagger-UI
+   <p align="center" >
+      <img src="/assets/doc_swagger-ui.png">
+   </p>
 ---
 
 ## Estrutura do projeto (exemplo)
